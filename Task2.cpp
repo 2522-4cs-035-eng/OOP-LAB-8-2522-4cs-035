@@ -7,7 +7,7 @@ class Student {
 public:
     Student(int r, int m) : rollNo(r), marks(m) {}
 
-    bool operator>(const Student& s) const {
+    bool operator > (const Student& s) const {
         return marks > s.marks;
     }
 };
